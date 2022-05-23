@@ -1,0 +1,434 @@
+/* Clone styles for coderDojo/resources */
+
+/* styling of html content */
+html {
+  font-family: Lato, sans-serif;
+  font-size: 62.5%;
+  word-spacing: 1px;
+  color: #222;
+}
+
+/* found these when inspecting the code - resolved spacing issue
+
+* will apply to the whole page - Asked Gwyl */
+*,
+::after,
+::before,
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+}
+
+/* The body styling */
+body {
+  font-size: 1.8rem;
+}
+
+/* A class to center text - alot of the content is centre so having a class for this save
+repeating the progess of aligning text  */
+.center-text {
+  text-align: center;
+}
+
+/* over rides default header styling */
+h1,
+h2,
+h3 {
+  font-family: Libre Franklin, sans-serif;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+/* container is the whole webpage, header, footer, content are all contained in the conntainer  */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* The header section */
+.header {
+  background-color: #642580;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* The content within the header */
+.header-content {
+  padding: 30px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: transparent;
+}
+
+/* The logo positioning in the header */
+.header-logo {
+  flex: 1;
+  max-width: 200px;
+}
+
+/* The logo image in the header */
+.header-logo img {
+  height: 45px;
+}
+
+/* The navigation bar */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* The navigation in the header */
+.header-nav {
+  flex: 3;
+}
+
+/* The <a> tag in nav for links */
+.nav a {
+  line-height: 45px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* The right right of the header - contains the login box  */
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 120px;
+}
+
+/* The "login" positioning and styling   */
+.header-login {
+  color: #fff;
+  line-height: 45px;
+  padding: 0 14px;
+  text-decoration: none;
+}
+
+/* The page content - purple and whilte areas */
+
+.content {
+  flex: 1;
+}
+
+/* The purple area */
+.purple {
+  background-color: #642580;
+  padding: 10px 0 40px;
+  color: #fff;
+}
+
+/* Content in the purple area */
+.purple-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* header in purple area */
+.purple-header {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
+
+/* text in purple */
+.purple-text {
+  max-width: 735px;
+  margin: 40px auto 80px;
+  font-weight: 400;
+}
+
+/* dojo projects */
+.dojo-projects {
+  display: flex;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+/* dojo project cards */
+.dojo-projectCards {
+  flex: 1;
+  background: #fff;
+  color: #222;
+  border-radius: 5px;
+  margin: 0 15px;
+  width: 30%;
+  text-decoration: none;
+}
+/* dojo project card img */
+.dojo-projectCards img {
+  width: 100%;
+}
+
+/* discuss projects section */
+.projects-discuss {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* discus project paragraph */
+.projects-discuss p {
+  max-width: 605px;
+  margin: 80px auto 40px;
+}
+
+/* disuss project link */
+.projects-discuss a {
+  display: block;
+  color: #ed684a;
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 40px 0;
+}
+
+/* view more projects */
+.projects_more {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* orange button styling*/
+.button_orange {
+  background-color: #ed684a;
+}
+
+/* the button  */
+.button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 1000px;
+}
+
+/* white area */
+.white-area {
+  max-width: 960px;
+  margin: 80px auto 120px;
+}
+
+/* white area section */
+.white-area-section {
+  display: flex;
+  margin: 80px 0;
+}
+
+/* white area image section */
+.white-area-section-image {
+  flex: 1;
+}
+
+/* white area image section iframe */
+.white-area-section-image iframe {
+  width: 100%;
+}
+
+/* white area text */
+.white-area-section-text {
+  flex: 1;
+  margin: 0 20px 0 30px;
+}
+
+/* white area paragraph */
+.white-area-section-text p {
+  margin: 20px 0;
+}
+
+/* white area link */
+.white-area-section-text a {
+  color: #ed684a;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* help desk */
+
+/* healp deak area */
+.helpdesk {
+  background: #f2f2f2;
+  padding: 40px 0;
+}
+
+/* helpdesk image area */
+.helpdesk-image {
+  text-align: center;
+}
+
+/* help desk img */
+.helpdesk-image img {
+  margin-top: -100px;
+}
+
+/* help desk text  */
+.helpdesk_text {
+  max-width: 605px;
+  margin: 20px auto 40px;
+}
+
+/* help desk more info section for button */
+.helpdesk-more {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 80px 0;
+}
+
+/* footer content */
+.footer-content {
+  max-width: 980px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* footer row */
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer mission statement */
+.footer-mission {
+  flex: 3;
+}
+
+/* footer image */
+.footer-mission img {
+  height: 45px;
+}
+
+/* footer paragraph */
+.footer-mission p {
+  margin: 40px 0;
+}
+
+/* footer right side */
+.footer-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* footer social media section */
+.footer-social {
+  justify-content: flex-end;
+  flex: 2;
+  flex-direction: row;
+}
+
+/* footer social media images */
+.footer-social img {
+  display: inline-block;
+  height: 35px;
+  border-radius: 100%;
+}
+
+/* spaceing for socail media first child then the others  */
+.footer-social a:first-child {
+  margin-left: 0;
+  text-decoration: none;
+}
+
+.footer-social a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+/* footer links */
+.footer-links {
+  flex: 1;
+}
+
+/* address in fooer */
+.footer-address {
+  margin-top: 40px;
+  color: #a6a6a6;
+}
+
+/* social media spacing */
+.footer-side-social {
+  justify-content: flex-end;
+  flex: 2;
+  flex-direction: row;
+}
+
+/* links in social */
+.footer-side-social a {
+  margin-left: 0;
+}
+
+/* footer language bar */
+.footer-lang {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+/* footer language picker */
+.lang-picker {
+  appearance: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0 40px 0 12px;
+}
+
+/* footer lang translate */
+.land-trans {
+  margin-top: 10px;
+}
+
+/* footer links colour*/
+.footer a {
+  color: #fff;
+}
+
+/* footer links header */
+.footer-links-header {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* footer links flex */
+.footer-links {
+  flex: 1;
+}
+
+/* footer links  */
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  line-height: 26px;
+  font-size: 18px;
+}
